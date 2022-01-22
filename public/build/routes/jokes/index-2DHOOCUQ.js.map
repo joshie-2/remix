@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/jokes/index.js?browser"],
+  "sourcesContent": ["export * from \"/home/joshie/repo/remix/app/routes/jokes/index.js\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}

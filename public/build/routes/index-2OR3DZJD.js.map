@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/index.tsx\";", "import { Outlet } from 'remix';\n\nconst Home = () => {\n\treturn (\n\t\t<>\n\t\t\t<h1>Index Page</h1>;\n\t\t\t<Outlet />\n\t\t</>\n\t);\n};\n\nexport default Home;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEA,IAAM,OAAO,MAAM;AAClB,SACC,0DACC,oCAAC,MAAD,MAAI,eAAe,KACnB,oCAAC,gCAAD;AAAA;AAKH,IAAO,iBAAQ;",
+  "names": []
+}

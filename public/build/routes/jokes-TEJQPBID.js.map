@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/jokes.tsx?browser", "../../../app/routes/jokes.tsx"],
+  "sourcesContent": ["export { default, links } from \"/home/joshie/repo/remix/app/routes/jokes.tsx\";", "import { Outlet, LinksFunction } from 'remix';\nimport stylesUrl from '../styles/jokes.css';\n\nexport const links: LinksFunction = () => {\n\treturn [\n\t\t{\n\t\t\trel: 'stylesheet',\n\t\t\thref: stylesUrl,\n\t\t},\n\t];\n};\nconst Jokes = () => {\n\treturn (\n\t\t<div className='jokes-Layout'>\n\t\t\t<h1>JOKES \uD83D\uDE1C PAGE</h1>\n\t\t\t<main>\n\t\t\t\t<Outlet />\n\t\t\t</main>\n\t\t</div>\n\t);\n};\n\nexport default Jokes;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;;;;;;AAGO,IAAM,QAAuB,MAAM;AACzC,SAAO;AAAA,IACN;AAAA,MACC,KAAK;AAAA,MACL,MAAM;AAAA;AAAA;AAAA;AAIT,IAAM,QAAQ,MAAM;AACnB,SACC,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACd,oCAAC,MAAD,MAAI,yBACJ,oCAAC,QAAD,MACC,oCAAC,gCAAD;AAAA;AAMJ,IAAO,iBAAQ;",
+  "names": []
+}

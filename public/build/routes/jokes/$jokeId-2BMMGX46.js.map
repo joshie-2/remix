@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/jokes/$jokeId.tsx?browser", "../../../../app/routes/jokes/$jokeId.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/jokes/$jokeId.tsx\";", "const JokeRoute = () => {\n\treturn (\n\t\t<div>\n\t\t\t<p>Here's your hilarious joke:</p>\n\t\t\t<p>\n\t\t\t\tWhy don't you find hippopotamuses hiding in trees? They're really good\n\t\t\t\tat it.\n\t\t\t</p>\n\t\t</div>\n\t);\n};\n\nexport default JokeRoute;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,YAAY,MAAM;AACvB,SACC,oCAAC,OAAD,MACC,oCAAC,KAAD,MAAG,gCACH,oCAAC,KAAD,MAAG;AAAA;AAQN,IAAO,iBAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/root.tsx?browser", "../../app/root.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/root.tsx\";", "import { LiveReload } from 'remix';\n\nexport default function App() {\n\treturn (\n\t\t<html lang='en'>\n\t\t\t<head>\n\t\t\t\t<meta charSet='utf-8' />\n\t\t\t\t<title>Remix: So great, it's funny!</title>\n\t\t\t</head>\n\t\t\t<body>\n\t\t\t\tHello world\n\t\t\t\t{process.env.NODE_ENV === 'development' ? <LiveReload /> : null}\n\t\t\t</body>\n\t\t</html>\n\t);\n}\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAEe,eAAe;AAC7B,SACC,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,KACV,oCAAC,QAAD,MACC,oCAAC,QAAD;AAAA,IAAM,SAAQ;AAAA,MACd,oCAAC,SAAD,MAAO,kCAER,oCAAC,QAAD,MAAM,eAEJ,OAAyC,oCAAC,YAAD,QAAiB;AAAA;",
+  "names": []
+}

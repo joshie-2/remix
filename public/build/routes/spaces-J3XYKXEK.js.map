@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/spaces.tsx?browser", "../../../app/routes/spaces.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/spaces.tsx\";", "import { Outlet } from 'remix';\n\nconst Space = () => {\n\treturn (\n\t\t<>\n\t\t\t<h2>Spaces Page</h2>\n\t\t\t<Outlet />\n\t\t</>\n\t);\n};\n\nexport default Space;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEA,IAAM,QAAQ,MAAM;AACnB,SACC,0DACC,oCAAC,MAAD,MAAI,gBACJ,oCAAC,gCAAD;AAAA;AAKH,IAAO,iBAAQ;",
+  "names": []
+}

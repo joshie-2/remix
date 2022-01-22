@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/spaces/new.tsx?browser", "../../../../app/routes/spaces/new.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/spaces/new.tsx\";", "const NewSpace = () => {\n\treturn (\n\t\t<>\n\t\t\t<div>\n\t\t\t\t<h4>Create your space!</h4>\n\t\t\t</div>\n\t\t\t<form>\n\t\t\t\t<label>\n\t\t\t\t\tName your space:\n\t\t\t\t\t<input type='text' />\n\t\t\t\t</label>\n\t\t\t\t<div>\n\t\t\t\t\t<button>Create Me</button>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t</>\n\t);\n};\n\nexport default NewSpace;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,WAAW,MAAM;AACtB,SACC,0DACC,oCAAC,OAAD,MACC,oCAAC,MAAD,MAAI,wBAEL,oCAAC,QAAD,MACC,oCAAC,SAAD,MAAO,oBAEN,oCAAC,SAAD;AAAA,IAAO,MAAK;AAAA,OAEb,oCAAC,OAAD,MACC,oCAAC,UAAD,MAAQ;AAAA;AAOb,IAAO,cAAQ;",
+  "names": []
+}

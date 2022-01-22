@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/index.tsx\";", "import { Outlet, LinksFunction } from 'remix';\n// import { styles } from '../styles/index.css';\n// export const links: LinksFunction = () => {\n// \treturn [{ rel: 'stylesheet', href: styles }];\n// };\n\nconst HomeRoute = () => {\n\treturn (\n\t\t<div>\n\t\t\t<h1>Hello Index Page</h1>\n\t\t\t<Outlet />\n\t\t</div>\n\t);\n};\n\nexport default HomeRoute;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAMA,IAAM,YAAY,MAAM;AACvB,SACC,oCAAC,OAAD,MACC,oCAAC,MAAD,MAAI,qBACJ,oCAAC,gCAAD;AAAA;AAKH,IAAO,iBAAQ;",
+  "names": []
+}

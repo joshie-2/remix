@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/jokes/index.tsx?browser", "../../../../app/routes/jokes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/jokes/index.tsx\";", "const JokesIndex = () => {\n\treturn (\n\t\t<div>\n\t\t\t<p>Here is a random joke:</p>\n\t\t\t<p>What did the elephant say to the whale. blow me!</p>\n\t\t</div>\n\t);\n};\n\nexport default JokesIndex;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,aAAa,MAAM;AACxB,SACC,oCAAC,OAAD,MACC,oCAAC,KAAD,MAAG,2BACH,oCAAC,KAAD,MAAG;AAAA;AAKN,IAAO,gBAAQ;",
+  "names": []
+}
