@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
-  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/index.tsx\";", "const Home = () => {\n\treturn <h1>Index Page</h1>;\n};\n\nexport default Home;\n"],
-  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,OAAO,MAAM;AAClB,SAAO,oCAAC,MAAD,MAAI;AAAA;AAGZ,IAAO,iBAAQ;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/root.tsx?browser", "../../app/root.tsx"],
-  "sourcesContent": ["export { default, links } from \"/home/joshie/repo/remix/app/root.tsx\";", "import { Links, LiveReload, Outlet, LinksFunction } from 'remix';\nimport GlobalStylesUrl from './styles/global.css';\nimport { links } from './routes/index';\n\nexport const links: LinksFunction = () => {\n\treturn [\n\t\t{\n\t\t\trel: 'stylesheet',\n\t\t\thref: GlobalStylesUrl,\n\t\t},\n\t];\n};\n\nexport default function App() {\n\treturn (\n\t\t<html lang='en'>\n\t\t\t<head>\n\t\t\t\t<meta charSet='utf-8' />\n\t\t\t\t<title>Love Remix</title>\n\t\t\t\t<Links />\n\t\t\t</head>\n\t\t\t<body>\n\t\t\t\t<Outlet />\n\n\t\t\t\t{process.env.NODE_ENV === 'development' ? <LiveReload /> : null}\n\t\t\t</body>\n\t\t</html>\n\t);\n}\n"],
-  "mappings": ";;;;;;;;;;;AAAA;;;ACAA;;;;;;AAIO,IAAM,QAAuB,MAAM;AACzC,SAAO;AAAA,IACN;AAAA,MACC,KAAK;AAAA,MACL,MAAM;AAAA;AAAA;AAAA;AAKM,eAAe;AAC7B,SACC,oCAAC,QAAD;AAAA,IAAM,MAAK;AAAA,KACV,oCAAC,QAAD,MACC,oCAAC,QAAD;AAAA,IAAM,SAAQ;AAAA,MACd,oCAAC,SAAD,MAAO,eACP,oCAAC,OAAD,QAED,oCAAC,QAAD,MACC,oCAAC,gCAAD,OAEC,OAAyC,oCAAC,YAAD,QAAiB;AAAA;",
-  "names": []
-}

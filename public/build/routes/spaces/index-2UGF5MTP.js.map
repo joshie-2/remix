@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/spaces/index.tsx?browser", "../../../../app/routes/spaces/index.tsx"],
-  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/spaces/index.tsx\";", "import { Outlet } from 'remix';\n\nconst Space = () => {\n\treturn (\n\t\t<>\n\t\t\t<ul>\n\t\t\t\t<li>Space 1</li>\n\t\t\t\t<li>Space 2</li>\n\t\t\t\t<li>Space 3</li>\n\t\t\t</ul>\n\t\t</>\n\t);\n};\n\nexport default Space;\n"],
-  "mappings": ";;;;;;AAAA;;;ACAA;AAEA,IAAM,QAAQ,MAAM;AACnB,SACC,0DACC,oCAAC,MAAD,MACC,oCAAC,MAAD,MAAI,YACJ,oCAAC,MAAD,MAAI,YACJ,oCAAC,MAAD,MAAI;AAAA;AAMR,IAAO,iBAAQ;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/spaces/index.tsx?browser"],
-  "sourcesContent": ["export * from \"/home/joshie/repo/remix/app/routes/spaces/index.tsx\";"],
-  "mappings": ";;;;;AAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/spaces/new.tsx?browser", "../../../../app/routes/spaces/new.tsx"],
-  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/spaces/new.tsx\";", "const NewSpace = () => {\n\treturn (\n\t\t<>\n\t\t\t<form>\n\t\t\t\t<input type='text' />\n\t\t\t</form>\n\t\t</>\n\t);\n};\n\nexport default NewSpace;\n"],
-  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,WAAW,MAAM;AACtB,SACC,0DACC,oCAAC,QAAD,MACC,oCAAC,SAAD;AAAA,IAAO,MAAK;AAAA;AAAA;AAMhB,IAAO,cAAQ;",
-  "names": []
-}

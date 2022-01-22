@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/jokes/new.tsx?browser", "../../../../app/routes/jokes/new.tsx"],
-  "sourcesContent": ["export { default } from \"/home/joshie/repo/remix/app/routes/jokes/new.tsx\";", "const NewJokesRoute = () => {\n\treturn (\n\t\t<div>\n\t\t\t<form method='post'>\n\t\t\t\t<div>\n\t\t\t\t\t<label>\n\t\t\t\t\t\tName: <input type='text' name='name' />\n\t\t\t\t\t</label>\n\t\t\t\t</div>\n\t\t\t\t<div>\n\t\t\t\t\t<label>\n\t\t\t\t\t\tContent: <input type='text' name='content' />\n\t\t\t\t\t</label>\n\t\t\t\t</div>\n\t\t\t\t<div>\n\t\t\t\t\t<button type='submit' className='button'></button>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t</div>\n\t);\n};\n\nexport default NewJokesRoute;\n"],
-  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,gBAAgB,MAAM;AAC3B,SACC,oCAAC,OAAD,MACC,oCAAC,QAAD;AAAA,IAAM,QAAO;AAAA,KACZ,oCAAC,OAAD,MACC,oCAAC,SAAD,MAAO,UACA,oCAAC,SAAD;AAAA,IAAO,MAAK;AAAA,IAAO,MAAK;AAAA,QAGhC,oCAAC,OAAD,MACC,oCAAC,SAAD,MAAO,aACG,oCAAC,SAAD;AAAA,IAAO,MAAK;AAAA,IAAO,MAAK;AAAA,QAGnC,oCAAC,OAAD,MACC,oCAAC,UAAD;AAAA,IAAQ,MAAK;AAAA,IAAS,WAAU;AAAA;AAAA;AAOrC,IAAO,cAAQ;",
-  "names": []
-}

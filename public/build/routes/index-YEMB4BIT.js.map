@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
-  "sourcesContent": ["export { default, links } from \"/home/joshie/repo/remix/app/routes/index.tsx\";", "import { Outlet, LinksFunction } from 'remix';\n\nexport const links: LinksFunction = () => {\n\treturn [\n\t\t{\n\t\t\trel: 'icon',\n\t\t\thref: '/favicon.png',\n\t\t\ttype: 'image/png',\n\t\t},\n\t\t{\n\t\t\trel: 'stylesheet',\n\t\t\thref: '../styles/index.css',\n\t\t},\n\t\t{ page: '/users/123' },\n\t\t{\n\t\t\trel: 'preload',\n\t\t\thref: '/images/banner.jpg',\n\t\t\tas: 'image',\n\t\t},\n\t];\n};\n\nconst Home = () => {\n\treturn (\n\t\t<>\n\t\t\t<h1>Index Page</h1>\n\t\t\t<Outlet />\n\t\t</>\n\t);\n};\n\nexport default Home;\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEO,IAAM,QAAuB,MAAM;AACzC,SAAO;AAAA,IACN;AAAA,MACC,KAAK;AAAA,MACL,MAAM;AAAA,MACN,MAAM;AAAA;AAAA,IAEP;AAAA,MACC,KAAK;AAAA,MACL,MAAM;AAAA;AAAA,IAEP,EAAE,MAAM;AAAA,IACR;AAAA,MACC,KAAK;AAAA,MACL,MAAM;AAAA,MACN,IAAI;AAAA;AAAA;AAAA;AAKP,IAAM,OAAO,MAAM;AAClB,SACC,0DACC,oCAAC,MAAD,MAAI,eACJ,oCAAC,gCAAD;AAAA;AAKH,IAAO,iBAAQ;",
-  "names": []
-}

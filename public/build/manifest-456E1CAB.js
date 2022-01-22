@@ -1,1 +1,0 @@
-window.__remixManifest={"version":"456e1cab","entry":{"module":"/build/entry.client-HIXUIDUP.js","imports":["/build/_shared/chunk-E7VMOUYL.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-SEOV3NSC.js","hasAction":false,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false}},"url":"/build/manifest-456E1CAB.js"};

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/home/joshie/repo/remix/app/root.tsx?browser", "../../app/root.tsx"],
-  "sourcesContent": ["export { default, meta } from \"/home/joshie/repo/remix/app/root.tsx\";", "import {\n\tLink,\n\tLinks,\n\tLiveReload,\n\tMeta,\n\tOutlet,\n\tScripts,\n\tScrollRestoration,\n} from 'remix';\nimport type { MetaFunction } from 'remix';\n\nexport const meta: MetaFunction = () => {\n\treturn { title: 'New Remix App' };\n};\n\nconst Title = styled.h1`\n\tfont-size: 1.5em;\n\ttext-align: center;\n\tcolor: palevioletred;\n`;\n\nexport default function App() {\n\treturn (\n\t\t<>\n\t\t\t<h1>Josh</h1>\n\t\t</>\n\t);\n}\n"],
-  "mappings": ";;;;;;AAAA;;;ACAA;AAWO,IAAM,OAAqB,MAAM;AACvC,SAAO,EAAE,OAAO;AAAA;AAGjB,IAAM,QAAQ,OAAO;AAAA;AAAA;AAAA;AAAA;AAMN,eAAe;AAC7B,SACC,0DACC,oCAAC,MAAD,MAAI;AAAA;",
-  "names": []
-}
